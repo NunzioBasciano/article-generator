@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import Counter from './components/counter/Counter';
 import Article from './components/article/Article';
 
-import './App.css'
-
 function App() {
 
   const [count, setCount] = useState(1);

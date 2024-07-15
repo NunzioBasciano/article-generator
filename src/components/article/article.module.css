@@ -1,0 +1,28 @@
+.article_container {
+    background-color: #00474b;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.article_id {
+    display: none;
+}
+
+.article_title {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.article_body {
+    color: #27c1ac;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    line-height: 1.5rem;
+}
